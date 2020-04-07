@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+  color: #778899;
+}
+
+h1:hover {
+  color: #bc8f8f;
+}
+
+body {
+  font-size: 20px;
+  background-color: white;
+  border: 20px solid;
+  border-color: aquamarine;
+  color: #2f4f4f;
+}
+
+div.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.div1 {
+  padding: 5%;
+  background-color: #7fffd4;
+}
+
+.div1:hover {
+  background-color: khaki;
+}
+
+.div2 {
+  background-color: darkslategray;
+  padding: 10%;
+  color: #00ced1;
+}
+
+.div2:hover {
+  background-color: dimgrey;
+  color: #ffa07a;
+}
+
+.last-section {
+  color: dimgray;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.last-section:hover {
+  color: goldenrod;
+}
+
+img:hover {
+  border-style: dotted;
+  border-color: red;
+  border-width: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "grid-item grid-item grid-item grid-item";
+}
+
+.last-section h2:hover {
+  text-transform: capitalize;
+}
+
+.last-section h2 {
+  text-transform: uppercase;
+}
